@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://martijnverhappen.github.io/"
+  base: "https://martijnverhappen.github.io/martijnverhappen-portfolio/"
 })
