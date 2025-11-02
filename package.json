@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://martijnverhappen.github.io/",
+  "homepage": "https://martijnverhappen.github.io/martijnverhappen-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
