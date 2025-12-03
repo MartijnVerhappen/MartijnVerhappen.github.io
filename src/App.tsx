@@ -62,9 +62,8 @@ export default function App() {
                 <b>Technologies:</b> React, Java, Spring Boot, STOMP, WebSockets
               </p>
             </div>
-          </div>
 
-          <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+            <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
               <h3 className="text-xl font-semibold mb-2">Political co-op game</h3>
               <p className="text-gray-700 mb-3">
                 A four player co-op game where the players have to work together on a main goal while keeping their own faction happy with the creation of faction specific projects and using short and long term policies to fix or prevent risks and disasters brought on by the creation of said projects.
@@ -73,6 +72,7 @@ export default function App() {
                 <b>Technologies:</b> C#, Unity
               </p>
             </div>
+          </div>
           </div>
       </section>
 
