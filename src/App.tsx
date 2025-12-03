@@ -17,10 +17,10 @@ export default function App() {
       <section id="about" className="max-w-4xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-semibold text-emerald-700 mb-4">About</h2>
         <p className="text-lg leading-relaxed">
-          I am <span className="font-semibold">Martijn Verhappen</span>, a HBO-ICT student at Fontys Hogescholen
+          My name is <span className="font-semibold">Martijn Verhappen</span>, a HBO-ICT student at Fontys Hogescholen
           with a specialisation in <span className="text-emerald-700 font-medium">game design</span>. 
-          I have experience with <b>C#, Java, React, SQL, NoSQL</b> en <b>Unity</b>.  
-          During my internship, I want to learn more about professional software development
+          I have experience with <b>C#, Java, React, SQL, NoSQL</b> and <b>Unity</b>.  
+          During my internship, I want to learn more about professional game design
           and collaborate within a real workflow.
         </p>
       </section>
@@ -47,11 +47,33 @@ export default function App() {
                 A 2D momentum based platformer where the player navigates a space station that is breaking down.
               </p>
               <p className="text-sm text-gray-600">
-                <b>Technologies:</b> C#, Unity, Physics Engine
+                <b>Technologies:</b> C#, Unity
               </p>
             </div>
           </div>
-        </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold mb-2">package flow optimization</h3>
+              <p className="text-gray-700 mb-3">
+                A project where me and my team were tasked with the optimization of the last 100 meters of a delivery system within the company Sioux.
+              </p>
+              <p className="text-sm text-gray-600">
+                <b>Technologies:</b> React, Java, Spring Boot, STOMP, WebSockets
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold mb-2">Political co-op game</h3>
+              <p className="text-gray-700 mb-3">
+                A four player co-op game where the players have to work together on a main goal while keeping their own faction happy with the creation of faction specific projects and using short and long term policies to fix or prevent risks and disasters brought on by the creation of said projects.
+              </p>
+              <p className="text-sm text-gray-600">
+                <b>Technologies:</b> C#, Unity
+              </p>
+            </div>
+          </div>
       </section>
 
       <section id="contact" className="max-w-4xl mx-auto px-6 py-16">
@@ -60,7 +82,7 @@ export default function App() {
 
         <ul className="space-y-2 text-lg">
           <li><b>Email:</b> <a href="mailto:482992@student.fontys.nl" className="text-emerald-700 hover:underline">482992@student.fontys.nl</a></li>
-          <li><b>Telefoon:</b> 06-21909443</li>
+          <li><b>Phonenumber:</b> 06-21909443</li>
           <li><b>GitHub:</b> <a href="https://github.com/martijnverhappen" className="text-emerald-700 hover:underline">github.com/martijnverhappen</a></li>
         </ul>
       </section>
