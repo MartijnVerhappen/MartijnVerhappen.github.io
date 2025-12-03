@@ -47,7 +47,19 @@ export default function App() {
                 A 2D momentum based platformer where the player navigates a space station that is breaking down.
               </p>
               <p className="text-sm text-gray-600">
-                <b>Technologies:</b> C#, Unity, Physics Engine
+                <b>Technologies:</b> C#, Unity
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold mb-2">package flow optimization</h3>
+              <p className="text-gray-700 mb-3">
+                A project where me and my team were tasked with the optimization of the last 100 meters of a delivery system within the company Sioux.
+              </p>
+              <p className="text-sm text-gray-600">
+                <b>Technologies:</b> React, Java, Spring Boot, STOMP, WebSockets
               </p>
             </div>
           </div>
