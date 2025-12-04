@@ -50,9 +50,7 @@ export default function App() {
                 <b>Technologies:</b> C#, Unity
               </p>
             </div>
-          </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
               <h3 className="text-xl font-semibold mb-2">package flow optimization</h3>
               <p className="text-gray-700 mb-3">
@@ -66,14 +64,14 @@ export default function App() {
             <div className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
               <h3 className="text-xl font-semibold mb-2">Political co-op game</h3>
               <p className="text-gray-700 mb-3">
-                A four player co-op game where the players have to work together on a main goal while keeping their own faction happy with the creation of faction specific projects and using short and long term policies to fix or prevent risks and disasters brought on by the creation of said projects.
+                A four player co-op game where the players have to work together on a main goal while keeping their own faction happy.
               </p>
               <p className="text-sm text-gray-600">
                 <b>Technologies:</b> C#, Unity
               </p>
             </div>
           </div>
-          </div>
+        </div>
       </section>
 
       <section id="contact" className="max-w-4xl mx-auto px-6 py-16">
